@@ -1,0 +1,22 @@
+.pager {
+    color: black;
+    background-color: white;
+}
+
+.pager-page {
+    border: 1px solid black;
+    padding: 2px;
+    display: inline-block;
+    cursor: pointer;
+    min-width: 2em;
+}
+
+.pager-page:hover {
+    color: white;
+    background-color: black;
+}
+
+.current {
+    color: white;
+    background-color: black;
+}
